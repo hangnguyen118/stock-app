@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('customers', function (Blueprint $table) {
             $table->foreignId('users_id')->primary()->constrained('users')->onDelete('cascade');
             $table->string('country');
-            $table->date('brithday');
+            $table->date('birthday');
             $table->string('biography');
             $table->unsignedBigInteger('credit_balance')->default(0);            
             $table->timestamps();
