@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "tag_name": "Art"
+    },
+    {
+        "id": 2,
+        "tag_name": "Photography"
+    },
+    {
+        "id": 3,
+        "tag_name": "Design"
+    },
+    {
+        "id": 4,
+        "tag_name": "Technology"
+    }
+]

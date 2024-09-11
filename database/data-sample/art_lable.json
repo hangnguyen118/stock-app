@@ -1,0 +1,42 @@
+[
+    {
+        "arts_id": 1,
+        "lables_id": 1
+    },
+    {
+        "arts_id": 1,
+        "lables_id": 2
+    },
+    {
+        "arts_id": 2,
+        "lables_id": 3
+    },
+    {
+        "arts_id": 2,
+        "lables_id": 4
+    },
+    {
+        "arts_id": 3,
+        "lables_id": 1
+    },
+    {
+        "arts_id": 3,
+        "lables_id": 2
+    },
+    {
+        "arts_id": 4,
+        "lables_id": 2
+    },
+    {
+        "arts_id": 4,
+        "lables_id": 4
+    },
+    {
+        "arts_id": 5,
+        "lables_id": 3
+    },
+    {
+        "arts_id": 5,
+        "lables_id": 4
+    }
+]

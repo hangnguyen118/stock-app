@@ -1,0 +1,39 @@
+[{
+    "users_id": 1,
+    "country": "Vietnam",
+    "birthday": "1990-01-01",
+    "biography": "A passionate artist from Vietnam.",
+    "credit_balance": 1000
+},
+{
+    "users_id": 2,
+    "country": "USA",
+    "birthday": "1985-05-15",
+    "biography": "An avid collector from the USA.",
+    "credit_balance": 1500
+},
+{
+    "users_id": 3,
+    "country": "France",
+    "birthday": "1992-11-22",
+    "biography": "A renowned art critic from France.",
+    "credit_balance": 2000
+}, {
+    "users_id": 4,
+    "country": "France",
+    "birthday": "1992-12-22",
+    "biography": "A renowned art critic from France.",
+    "credit_balance": 2600
+}, {
+    "users_id": 5,
+    "country": "Vietnam",
+    "birthday": "1993-10-12",
+    "biography": "A renowned art critic from France.",
+    "credit_balance": 200
+}, {
+    "users_id": 6,
+    "country": "Vietnam",
+    "birthday": "1996-1-23",
+    "biography": "A renowned art critic from France.",
+    "credit_balance": 2500
+}]

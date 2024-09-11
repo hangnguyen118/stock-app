@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "permission_name": "edit"
+    },
+    {
+        "id": 2,
+        "permission_name": "update"
+    },
+    {
+        "id": 3,
+        "permission_name": "delete"
+    },
+    {
+        "id": 4,
+        "permission_name": "view"
+    },
+    {
+        "id": 5,
+        "permission_name": "create"
+    },
+    {
+        "id": 6,
+        "permission_name": "approve"
+    },
+    {
+        "id": 7,
+        "permission_name": "publish"
+    },
+    {
+        "id": 8,
+        "permission_name": "archive"
+    },
+    {
+        "id": 9,
+        "permission_name": "restore"
+    },
+    {
+        "id": 10,
+        "permission_name": "manage"
+    }
+]

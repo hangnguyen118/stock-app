@@ -1,0 +1,42 @@
+[
+    {
+        "users_id": 1,
+        "permissions_id": 1
+    },
+    {
+        "users_id": 1,
+        "permissions_id": 2
+    },
+    {
+        "users_id": 2,
+        "permissions_id": 1
+    },
+    {
+        "users_id": 2,
+        "permissions_id": 3
+    },
+    {
+        "users_id": 3,
+        "permissions_id": 2
+    },
+    {
+        "users_id": 3,
+        "permissions_id": 4
+    },
+    {
+        "users_id": 4,
+        "permissions_id": 1
+    },
+    {
+        "users_id": 4,
+        "permissions_id": 5
+    },
+    {
+        "users_id": 5,
+        "permissions_id": 3
+    },
+    {
+        "users_id": 5,
+        "permissions_id": 4
+    }
+]

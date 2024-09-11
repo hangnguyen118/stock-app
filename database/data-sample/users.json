@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "name": "Harley Davidson",
+    "email": "harley89@gmail.com",
+    "password": "123456789",
+    "role": 1
+}, {
+    "id": 2,
+    "name": "Allisson Lloyd",
+    "email": "lloyd@gmail.com",
+    "password": "123456789",
+    "role": 1
+}, {
+    "id": 3,
+    "name": "Drake Spence",
+    "email": "drake12@gmail.com",
+    "password": "123456789",
+    "role": 1
+}, {
+    "id": 4,
+    "name": "Daphne Blackwell",
+    "email": "daphne123@gmail.com",
+    "password": "123456789",
+    "role": 1
+}, {
+    "id": 5,
+    "name": "Kaitlyn Hunt",
+    "email": "hunt@gmail.com",
+    "password": "123456789",
+    "role": 1
+}, {
+    "id": 6,
+    "name": "Saniya Holloway",
+    "email": "saniya@gmail.com",
+    "password": "123456789",
+    "role": 1
+}]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "customers_id": 1,
+        "arts_id": 1,
+        "content": "Great artwork! Love the details.",
+        "like": 15,
+        "type": "positive"
+    },
+    {
+        "id": 2,
+        "customers_id": 2,
+        "arts_id": 1,
+        "content": "I think the colors could be improved.",
+        "like": 7,
+        "type": "constructive"
+    },
+    {
+        "id": 3,
+        "customers_id": 3,
+        "arts_id": 2,
+        "content": "Absolutely stunning piece!",
+        "like": 25,
+        "type": "positive"
+    },
+    {
+        "id": 4,
+        "customers_id": 1,
+        "arts_id": 2,
+        "content": "Not my style, but well executed.",
+        "like": 10,
+        "type": "neutral"
+    },
+    {
+        "id": 6,
+        "customers_id": 4,
+        "arts_id": 3,
+        "content": "I find the concept intriguing.",
+        "like": 8,
+        "type": "positive"
+    },
+    {
+        "id": 7,
+        "customers_id": 5,
+        "arts_id": 3,
+        "content": "Could use more contrast.",
+        "like": 5,
+        "type": "constructive"
+    },
+    {
+        "id": 8,
+        "customers_id": 2,
+        "arts_id": 4,
+        "content": "This piece is very captivating!",
+        "like": 20,
+        "type": "positive"
+    },
+    {
+        "id": 9,
+        "customers_id": 3,
+        "arts_id": 4,
+        "content": "Nice work, but the composition feels off.",
+        "like": 12,
+        "type": "constructive"
+    },
+    {
+        "id": 10,
+        "customers_id": 4,
+        "arts_id": 5,
+        "content": "I love the abstract elements.",
+        "like": 18,
+        "type": "positive"
+    },
+    {
+        "id": 11,
+        "customers_id": 5,
+        "arts_id": 5,
+        "content": "Interesting, but could be more refined.",
+        "like": 7,
+        "type": "neutral"
+    }
+]

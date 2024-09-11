@@ -1,0 +1,42 @@
+[
+    {
+        "arts_id": 1,
+        "tags_id": 1
+    },
+    {
+        "arts_id": 1,
+        "tags_id": 2
+    },
+    {
+        "arts_id": 2,
+        "tags_id": 3
+    },
+    {
+        "arts_id": 2,
+        "tags_id": 4
+    },
+    {
+        "arts_id": 3,
+        "tags_id": 1
+    },
+    {
+        "arts_id": 3,
+        "tags_id": 2
+    },
+    {
+        "arts_id": 4,
+        "tags_id": 2
+    },
+    {
+        "arts_id": 4,
+        "tags_id": 3
+    },
+    {
+        "arts_id": 5,
+        "tags_id": 3
+    },
+    {
+        "arts_id": 5,
+        "tags_id": 4
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "customers_id": 1,
+        "arts_id": 1
+    },
+    {
+        "customers_id": 1,
+        "arts_id": 2
+    },
+    {
+        "customers_id": 2,
+        "arts_id": 3
+    },
+    {
+        "customers_id": 2,
+        "arts_id": 4
+    },
+    {
+        "customers_id": 3,
+        "arts_id": 5
+    },
+    {
+        "customers_id": 3,
+        "arts_id": 1
+    },
+    {
+        "customers_id": 4,
+        "arts_id": 2
+    },
+    {
+        "customers_id": 4,
+        "arts_id": 3
+    },
+    {
+        "customers_id": 5,
+        "arts_id": 4
+    },
+    {
+        "customers_id": 5,
+        "arts_id": 5
+    }
+]

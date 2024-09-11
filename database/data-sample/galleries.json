@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "gallery_name": "Modern Art",
+        "customers_id": 1
+    },
+    {
+        "id": 2,
+        "gallery_name": "Abstract Paintings",
+        "customers_id": 2
+    },
+    {
+        "id": 3,
+        "gallery_name": "Classic Sculptures",
+        "customers_id": 2
+    },
+    {
+        "id": 4,
+        "gallery_name": "Photography Exhibits",
+        "customers_id": 1
+    },
+    {
+        "id": 5,
+        "gallery_name": "Digital Art",
+        "customers_id": 1
+    },
+    {
+        "id": 6,
+        "gallery_name": "Street Art",
+        "customers_id": 2
+    },
+    {
+        "id": 7,
+        "gallery_name": "Impressionist Works",
+        "customers_id": 2
+    },
+    {
+        "id": 8,
+        "gallery_name": "Contemporary Art",
+        "customers_id": 3
+    },
+    {
+        "id": 9,
+        "gallery_name": "Renaissance Art",
+        "customers_id": 2
+    },
+    {
+        "id": 10,
+        "gallery_name": "Cubism",
+        "customers_id": 1
+    }
+]
