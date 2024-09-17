@@ -12,7 +12,10 @@ class RegisterController extends Controller
 {
     public function register(RegisterRequest $request)
     {
-        $user = $this->create(data: $request->all());
+        $data = array_merge($request->all(), [
+            'role' => 1
+        ]);
+        $user = $this->create($data);
         $token = $user->createToken('apiToken')->plainTextToken;
         $res = [
             'user' => $user,
@@ -28,6 +31,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'role' => $data['role']
         ]);
     }
 }
