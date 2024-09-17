@@ -1,42 +1,52 @@
 [
     {
         "id": 1,
-        "image_url": "https://example.com/images/image1.jpg"
+        "image_url": "https://example.com/images/image1.jpg",
+        "arts_id": 1
     },
     {
         "id": 2,
-        "image_url": "https://example.com/images/image2.jpg"
+        "image_url": "https://example.com/images/image2.jpg",
+        "arts_id": 1
     },
     {
         "id": 3,
-        "image_url": "https://example.com/images/image3.jpg"
+        "image_url": "https://example.com/images/image3.jpg",
+        "arts_id": 1
     },
     {
         "id": 4,
-        "image_url": "https://example.com/images/image4.jpg"
+        "image_url": "https://example.com/images/image4.jpg",
+        "arts_id": 2
     },
     {
         "id": 5,
-        "image_url": "https://example.com/images/image5.jpg"
+        "image_url": "https://example.com/images/image5.jpg",
+        "arts_id": 2
     },
     {
         "id": 6,
-        "image_url": "https://example.com/images/image6.jpg"
+        "image_url": "https://example.com/images/image6.jpg",
+        "arts_id": 3
     },
     {
         "id": 7,
-        "image_url": "https://example.com/images/image7.jpg"
+        "image_url": "https://example.com/images/image7.jpg",
+        "arts_id": 3
     },
     {
         "id": 8,
-        "image_url": "https://example.com/images/image8.jpg"
+        "image_url": "https://example.com/images/image8.jpg",
+        "arts_id": 3
     },
     {
         "id": 9,
-        "image_url": "https://example.com/images/image9.jpg"
+        "image_url": "https://example.com/images/image9.jpg",
+        "arts_id": 4
     },
     {
         "id": 10,
-        "image_url": "https://example.com/images/image10.jpg"
+        "image_url": "https://example.com/images/image10.jpg",
+        "arts_id": 4
     }
 ]

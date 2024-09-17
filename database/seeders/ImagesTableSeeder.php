@@ -23,6 +23,7 @@ class ImagesTableSeeder extends Seeder
             DB::table('images')->insert(array(
                 'id' => $obj->id,
                 'image_url' => $obj->image_url,
+                'arts_id' => $obj->arts_id
             ));
         }
     }

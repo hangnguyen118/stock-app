@@ -13,8 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
         $this->call(UsersTableSeeder::class);
-        $this->call(CustomersTableSeeder::class);
-        $this->call(ImagesTableSeeder::class);
+        $this->call(CustomersTableSeeder::class);        
         $this->call(LablesTableSeeder::class);
         $this->call(TagsTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
@@ -25,6 +24,6 @@ class DatabaseSeeder extends Seeder
         $this->call(CommentsTableSeeder::class);
         $this->call(ArtLableTableSeeder::class);
         $this->call(ArtTagTableSeeder::class);
-        $this->call(ArtImageTableSeeder::class);
+        $this->call(ImagesTableSeeder::class);
     }
 }
