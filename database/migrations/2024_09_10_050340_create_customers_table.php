@@ -12,10 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('customers', function (Blueprint $table) {
-            $table->foreignId('users_id')->primary()->constrained('users')->onDelete('cascade');
-            $table->string('country');
-            $table->date('birthday');
-            $table->string('biography');
+            $table->id();
+            $table->foreignId('users_id')->constrained('users', 'id')->onDelete('cascade');
+            $table->string('country')->nullable();
+            $table->date('birthday')->nullable();
+            $table->string('biography')->nullable();
             $table->unsignedBigInteger('credit_balance')->default(0);            
             $table->timestamps();
         });

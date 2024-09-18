@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('gallery_name');
             $table->foreignId('customers_id')->constrained('customers', 'users_id')->onDelete('cascade');
             $table->timestamps();
+            $table->unique(['customers_id', 'gallery_name']);
         });
     }
 
