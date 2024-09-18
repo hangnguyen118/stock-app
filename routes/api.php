@@ -10,28 +10,27 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 //auth route
-Route::prefix('auth')->name('auth')->group(function () {
-    Route::post('register', [RegisterController::class, 'register']);
-    Route::post('login', [LoginController::class, 'login']);
+Route::prefix('auth')->name('auth.')->group(function () {
+    Route::post('register', [RegisterController::class, 'register'])->name('register');
+    Route::post('login', [LoginController::class, 'login'])->name('login');
     Route::middleware('auth:sanctum')->group(function () {
-        Route::controller(LogoutController::class)->group(function (){
-            Route::get('logout', 'logout')->name('.logout');
-        });
+        Route::get('logout', [LogoutController::class, 'logout'])->name('logout');
     });
 });
 
 //public routes
-Route::apiResource('arts', ArtController::class, ['index', 'show']);
+Route::apiResource('arts', ArtController::class)->only(['index', 'show']);
+Route::apiResource('lables', LableController::class)->only(['index', 'show']);
 
 //private routes
 Route::middleware('auth:sanctum')->group(function () {
-    Route::name('customer.')->group(function() {
+
+        //customer
         Route::apiResource('arts', ArtController::class, ['store', 'update', 'destroy']);
-    });
-    Route::name('admin.')->group(function(){
+
+        //admin
         Route::apiResource('tags', TagController::class);
-        Route::apiResource('lables', LableController::class);
-    });
+        Route::apiResource('lables', LableController::class, ['store', 'update', 'destroy']);
 });
 
 Route::fallback(function () {

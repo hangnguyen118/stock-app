@@ -10,11 +10,11 @@ class RepositoryServiceProvider extends ServiceProvider
      * Register services.
      */
     public function register(): void
-    {
+    { 
         $this->app->bind(
-            'App\\Contracts\\RepositoryInterfaces\\ArtRepositoryInterface',
-            'App\\Repositories\\ArtRepository'
-        );
+            'App\Contracts\interfaces\LableRepositoryInterface',
+            'App\Repositories\LableRepository'
+        );      
     }
 
     /**

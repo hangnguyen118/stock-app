@@ -50,7 +50,7 @@ abstract class EloquentRepository implements EloquentRepositoryInterface
             ->paginate($this->_paginate);
     }
 
-    public function create(array $data)
+    public function store(array $data)
     {
         return $this->_model->create($data);
     }
