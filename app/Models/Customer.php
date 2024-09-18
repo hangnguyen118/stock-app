@@ -17,7 +17,8 @@ class Customer extends Model
         'country',
         'birthday',
         'biography',
-        'credit_balance'
+        'credit_balance',
+        'users_id'
     ];
 
     /**
@@ -31,6 +32,10 @@ class Customer extends Model
             'create_at' => 'datetime',
             'update_at' => 'datetime',
         ];
+    }
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'users_id');
     }
     public function favourites()
     {
