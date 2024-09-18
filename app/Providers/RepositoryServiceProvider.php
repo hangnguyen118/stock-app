@@ -2,6 +2,10 @@
 
 namespace App\Providers;
 
+use App\Contracts\interfaces\LableRepositoryInterface;
+use App\Contracts\Interfaces\TagRepositoryInterface;
+use App\Repositories\LableRepository;
+use App\Repositories\TagRepository;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider
@@ -10,11 +14,9 @@ class RepositoryServiceProvider extends ServiceProvider
      * Register services.
      */
     public function register(): void
-    { 
-        $this->app->bind(
-            'App\Contracts\interfaces\LableRepositoryInterface',
-            'App\Repositories\LableRepository'
-        );      
+    {
+        $this->app->bind(LableRepositoryInterface::class, LableRepository::class);
+        $this->app->bind(TagRepositoryInterface::class, TagRepository::class);
     }
 
     /**
