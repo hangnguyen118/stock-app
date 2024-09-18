@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\ArtController;
+use App\Http\Controllers\API\GalleryController;
 use App\Http\Controllers\API\LableController;
 use App\Http\Controllers\API\TagController;
 use App\Http\Controllers\Auth\LoginController;
@@ -32,6 +33,7 @@ Route::middleware('auth:sanctum')->group(function () {
         //admin
         Route::apiResource('tags', TagController::class)->only(['store', 'update', 'destroy']);
         Route::apiResource('lables', LableController::class)->only(['store', 'update', 'destroy']);
+        Route::apiResource('galleries', GalleryController::class)->only(['index', 'store', 'show', 'update', 'destroy']);
 });
 
 Route::fallback(function () {
