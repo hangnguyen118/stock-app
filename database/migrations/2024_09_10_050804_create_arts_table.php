@@ -14,18 +14,19 @@ return new class extends Migration
         Schema::create('arts', function (Blueprint $table) {
             $table->id();
             $table->foreignId('galleries_id')->constrained('galleries')->onDelete('cascade');
+            $table->foreignId('customers_id')->constrained('customers')->onDelete('cascade');
             $table->string('title');
             $table->text('descriptions');
-            $table->unsignedBigInteger('price');
+            $table->unsignedBigInteger('price')->default(0);
             $table->string('display');
             $table->boolean('watemark');
-            $table->unsignedBigInteger('dowload');
-            $table->unsignedBigInteger('view');
-            $table->unsignedBigInteger('like');
-            $table->unsignedBigInteger('favourites');
-            $table->unsignedInteger('comment');
-            $table->string('url_cover_image');
-            $table->string('url_preview_image');
+            $table->unsignedBigInteger('dowload')->default(0);
+            $table->unsignedBigInteger('view')->default(0);
+            $table->unsignedBigInteger('like')->default(0);
+            $table->unsignedBigInteger('favourites')->default(0);
+            $table->unsignedInteger('comment')->default(0);
+            $table->string('url_cover_image')->default(null);
+            $table->string('url_preview_image')->default(null);
             $table->timestamps();
         });
     }

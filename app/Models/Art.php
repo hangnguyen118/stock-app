@@ -13,10 +13,12 @@ class Art extends Model
      *
      * @var array<int, string>
      */
+    protected $table = 'arts';
     protected $fillable = [
         'galleries_id',
+        'customers_id',
         'title',
-        'description',
+        'descriptions',
         'price',
         'display',
         'watemark',
@@ -53,6 +55,10 @@ class Art extends Model
     {
         return $this->belongsTo(Gallery::class, 'galleries_id');
     }    
+    public function customer() 
+    {
+        return $this->belongsTo(Customer::class, 'customers_id');
+    }
     public function tags()
     {
         return $this->belongsToMany(Tag::class, 'art_tag', 'arts_id', 'tags_id');

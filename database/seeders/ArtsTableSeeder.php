@@ -23,6 +23,7 @@ class ArtsTableSeeder extends Seeder
             DB::table('arts')->insert(array(
                 'id' => $obj->id,
                 'galleries_id' => $obj->galleries_id,
+                'customers_id' => $obj->customers_id,
                 'title' => $obj->title,
                 'descriptions' => $obj->descriptions,
                 'price' => $obj->price,

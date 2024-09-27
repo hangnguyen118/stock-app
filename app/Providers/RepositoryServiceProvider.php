@@ -2,11 +2,13 @@
 
 namespace App\Providers;
 
+use App\Contracts\Interfaces\ArtRepositoryInterface;
 use App\Contracts\Interfaces\CustomerRepositoryInterface;
 use App\Contracts\Interfaces\GalleryRepositoryInterface;
 use App\Contracts\interfaces\LableRepositoryInterface;
 use App\Contracts\Interfaces\TagRepositoryInterface;
 use App\Contracts\Interfaces\UserRepositoryInterface;
+use App\Repositories\ArtRepository;
 use App\Repositories\CustomerRepository;
 use App\Repositories\GalleryRepository;
 use App\Repositories\LableRepository;
@@ -26,6 +28,7 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(GalleryRepositoryInterface::class, GalleryRepository::class);
         $this->app->bind(CustomerRepositoryInterface::class, CustomerRepository::class);
         $this->app->bind(UserRepositoryInterface::class, UserRepository::class);
+        $this->app->bind(ArtRepositoryInterface::class, ArtRepository::class);
     }
 
     /**

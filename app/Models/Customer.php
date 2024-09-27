@@ -51,4 +51,8 @@ class Customer extends Model
     {
         return $this->hasMany(Comment::class, 'customers_id');
     }
+    public function arts()
+    {
+        return $this->hasMany(Art::class, 'customers_id');
+    }
 }
