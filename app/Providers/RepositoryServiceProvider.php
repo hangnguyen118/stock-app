@@ -10,6 +10,7 @@ use App\Contracts\Interfaces\TagRepositoryInterface;
 use App\Contracts\Interfaces\UserRepositoryInterface;
 use App\Repositories\ArtRepository;
 use App\Repositories\CustomerRepository;
+use App\Repositories\FavouriteRepository;
 use App\Repositories\GalleryRepository;
 use App\Repositories\LableRepository;
 use App\Repositories\TagRepository;
@@ -29,6 +30,9 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(CustomerRepositoryInterface::class, CustomerRepository::class);
         $this->app->bind(UserRepositoryInterface::class, UserRepository::class);
         $this->app->bind(ArtRepositoryInterface::class, ArtRepository::class);
+        $this->app->singleton(FavouriteRepository::class, function ($app) {
+            return new FavouriteRepository();
+        });
     }
 
     /**
